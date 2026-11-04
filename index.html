@@ -47,7 +47,7 @@
         <!-- Sidebar Desktop -->
         <aside class="w-64 bg-slate-900 text-white flex-col hidden md:flex shrink-0 shadow-xl z-20 transition-all duration-300">
             <div class="p-5 border-b border-slate-700 flex items-center gap-3">
-                <img onerror="this.onerror=null;this.src='https://iili.io/CSnmEHg.jpg';" src="https://iili.io/CSnmEHg.jpg" alt="Logo Sekolah" class="w-12 h-12 object-contain bg-white rounded-full p-0.5">
+                <img src="https://iili.io/nP6g4Lv.md.png" alt="Logo Sekolah" class="w-12 h-12 object-contain bg-white rounded-full p-0.5" onerror="this.onerror=null;this.src='https://iili.io/nP6g4Lv.png';">
                 <div>
                     <h1 class="text-xs font-bold text-blue-400 tracking-wider leading-tight uppercase">SK<br>Temenggong Abdul Rahman</h1>
                     <p class="text-[10px] text-slate-400 mt-1 uppercase">Sistem e-Analisis</p>
@@ -85,7 +85,7 @@
             <!-- Mobile Header -->
             <header class="md:hidden bg-slate-900 text-white p-3 flex justify-between items-center z-20 shadow-md">
                 <div class="flex items-center gap-2">
-                    <img onerror="this.onerror=null;this.src='https://iili.io/CSnmEHg.jpg';" src="https://iili.io/CSnmEHg.jpg" alt="Logo Sekolah" class="w-8 h-8 object-contain bg-white rounded-full p-0.5">
+                    <img src="https://iili.io/nP6g4Lv.md.png" alt="Logo Sekolah" class="w-8 h-8 object-contain bg-white rounded-full p-0.5" onerror="this.onerror=null;this.src='https://iili.io/nP6g4Lv.png';">
                     <h1 class="text-xs font-bold leading-tight uppercase">SK TEMENGGONG ABDUL RAHMAN</h1>
                 </div>
                 <select id="mobile-nav" onchange="switchTab(this.value)" class="bg-slate-800 border border-slate-600 text-white text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block p-2">
@@ -469,9 +469,9 @@
 
         // Muat Turun Data dari Google Sheets (CSV)
         async function muatTurunDataCSV() {
-            const urlMurid = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-hpqUZTbq0K1qqHXJVIEWVU9KpmMJ03VsNZ476xwZsKvbTD0YhRdT5ZzzQiiCYvbs7a8t6cNVdHae/pub?gid=0&single=true&output=csv';
-            const urlSubjek = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-hpqUZTbq0K1qqHXJVIEWVU9KpmMJ03VsNZ476xwZsKvbTD0YhRdT5ZzzQiiCYvbs7a8t6cNVdHae/pub?gid=875901723&single=true&output=csv';
-            const urlMarkah = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-hpqUZTbq0K1qqHXJVIEWVU9KpmMJ03VsNZ476xwZsKvbTD0YhRdT5ZzzQiiCYvbs7a8t6cNVdHae/pub?gid=1713996540&single=true&output=csv';
+            const urlMurid = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTRKmBTmwXpHkcush3PDYTGRR3iELA1-I4dNSYKRvYSX_y5e5pblxsiJhZHG-TMOQnR7uJrAQg0evDj/pub?gid=0&single=true&output=csv';
+            const urlSubjek = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTRKmBTmwXpHkcush3PDYTGRR3iELA1-I4dNSYKRvYSX_y5e5pblxsiJhZHG-TMOQnR7uJrAQg0evDj/pub?gid=1306965843&single=true&output=csv';
+            const urlMarkah = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTRKmBTmwXpHkcush3PDYTGRR3iELA1-I4dNSYKRvYSX_y5e5pblxsiJhZHG-TMOQnR7uJrAQg0evDj/pub?gid=1213998548&single=true&output=csv';
 
             try {
                 bukaModal("Memuat turun data sistem dari pangkalan awan...", "loading");
@@ -732,8 +732,8 @@
             bukaModal("Menyimpan ke pangkalan data (Google Sheets)...", "loading");
 
             // Tetapan SEKOLAH KEBANGSAAN TEMENGGONG ABDUL RAHMAN
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyjfA07j3d5B0hz3hTGSDb0dpzBlHhQyvAxJCsVyWGrKl8ZGLV2EbcaqPyO_bspV3g/exec';
-            const sheetId = '1Xl8S-swXziQCod1pofI-mW4czBHz0ERiffH__OxRG1c';
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby5VCo1mMIdiH5S6vdRD1u1NIbfuPG-hepxyYL-WfbyiMr2qGLULtCUHz3WLcVTsSs/exec';
+            const sheetId = '1TlZHLiIIpe5g5a8D-d9UVTX7ijXQG-epZF4nrRpYOJw';
 
             const params = new URLSearchParams();
             params.append('action', 'simpanMarkah');
@@ -1194,7 +1194,7 @@
                     <div class="slip-page ${index !== senaraiMuridInfo.length - 1 ? 'page-break-after-always' : ''} bg-white p-8 border-b-8 border-gray-100 print:border-none print:p-0">
                         <!-- Header -->
                         <div class="flex items-center justify-center gap-6 mb-6 border-b-2 border-black pb-4">
-                            <img onerror="this.onerror=null;this.src='https://iili.io/CSnmEHg.jpg';" src="https://iili.io/CSnmEHg.jpg" alt="Logo Sekolah" class="w-20 h-20 object-contain">
+                            <img src="https://iili.io/nP6g4Lv.md.png" alt="Logo Sekolah" class="w-20 h-20 object-contain" onerror="this.onerror=null;this.src='https://iili.io/nP6g4Lv.png';">
                             <div class="text-center">
                                 <h1 class="text-lg font-bold uppercase">SEKOLAH KEBANGSAAN TEMENGGONG ABDUL RAHMAN</h1>
                                 <h2 class="text-lg font-semibold mt-1">SLIP PENCAPAIAN MURID</h2>
@@ -1331,7 +1331,7 @@
                     <body>
                         ${tajukUtama ? `
                         <div class="flex items-center gap-6 mb-6 border-b-2 border-black pb-4">
-                            <img onerror="this.onerror=null;this.src='https://iili.io/CSnmEHg.jpg';" src="https://iili.io/CSnmEHg.jpg" alt="Logo Sekolah" style="width: 80px; height: 80px; object-fit: contain;">
+                            <img src="https://iili.io/nP6g4Lv.md.png" alt="Logo Sekolah" style="width: 80px; height: 80px; object-fit: contain;" onerror="this.onerror=null;this.src='https://iili.io/nP6g4Lv.png';">
                             <div>
                                 <h1 class="text-xl font-bold uppercase">SEKOLAH KEBANGSAAN TEMENGGONG ABDUL RAHMAN</h1>
                                 <h2 class="text-lg font-semibold text-gray-800">${tajukUtama}</h2>
